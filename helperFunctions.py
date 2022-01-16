@@ -1,6 +1,6 @@
 import re
 import hashlib
-from cache_handling import setCache, getFromCache
+from SmallURL.cache_handling import setCache, getFromCache
 
 def isURLValid(url):
     regex = re.compile('^http(s)?:\/\/[a-zA-Z]+.[a-zA-Z\/.]*')
