@@ -17,3 +17,7 @@ I have used flask in the backend the memcache for caching.
 1. Run the commands
  ```docker build .```
 ```docker run -p 5000:5000 -p 11211:11211 <image_id>```
+
+## Run the tests
+To run the tests, run the following command from root of the repo
+```python3 -m pytest```
